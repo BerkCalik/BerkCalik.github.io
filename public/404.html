@@ -5,15 +5,22 @@
     <title>Redirecting…</title>
     <script>
       ;(function () {
-        var path = window.location.pathname
-        var pathParts = path.split('/').filter(Boolean)
-        var repoBase = pathParts.length > 0 ? '/' + pathParts[0] : ''
-        var route = pathParts.length > 1 ? '/' + pathParts.slice(1).join('/') : '/'
+        var knownAppRoutes = ['code', 'about', 'projects', 'skills', 'contact']
+        var pathParts = window.location.pathname.split('/').filter(Boolean)
+
+        var keepSegments = 0
+        if (pathParts.length > 0 && knownAppRoutes.indexOf(pathParts[0].toLowerCase()) === -1) {
+          keepSegments = 1
+        }
+
+        var basePath = keepSegments > 0 ? '/' + pathParts.slice(0, keepSegments).join('/') : ''
+        var routePath = '/' + pathParts.slice(keepSegments).join('/')
         var search = window.location.search
           ? '&' + window.location.search.slice(1).replace(/&/g, '~and~')
           : ''
         var hash = window.location.hash || ''
-        window.location.replace(repoBase + '/?/' + route.replace(/^\//, '') + search + hash)
+
+        window.location.replace(basePath + '/?/' + routePath.replace(/^\//, '') + search + hash)
       })()
     </script>
   </head>

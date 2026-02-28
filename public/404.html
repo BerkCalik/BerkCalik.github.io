@@ -8,18 +8,28 @@
         var knownAppRoutes = ['code', 'about', 'projects', 'skills', 'contact']
         var pathParts = window.location.pathname.split('/').filter(Boolean)
 
-        var keepSegments = 0
-        if (pathParts.length > 0 && knownAppRoutes.indexOf(pathParts[0].toLowerCase()) === -1) {
-          keepSegments = 1
+        var basePath = ''
+        var routeParts = pathParts.slice()
+
+        if (pathParts.length > 1 && knownAppRoutes.indexOf(pathParts[1].toLowerCase()) !== -1) {
+          basePath = '/' + pathParts[0]
+          routeParts = pathParts.slice(1)
+        } else if (pathParts.length > 1 && knownAppRoutes.indexOf(pathParts[0].toLowerCase()) === -1) {
+          basePath = '/' + pathParts[0]
+          routeParts = pathParts.slice(1)
         }
 
-        var basePath = keepSegments > 0 ? '/' + pathParts.slice(0, keepSegments).join('/') : ''
-        var routePath = '/' + pathParts.slice(keepSegments).join('/')
+        var routeRoot = routeParts[0] ? routeParts[0].toLowerCase() : ''
+        if (!routeRoot || knownAppRoutes.indexOf(routeRoot) === -1) {
+          window.location.replace(basePath + '/code')
+          return
+        }
+
+        var routePath = '/' + routeParts.join('/')
         var search = window.location.search
           ? '&' + window.location.search.slice(1).replace(/&/g, '~and~')
           : ''
         var hash = window.location.hash || ''
-
         window.location.replace(basePath + '/?/' + routePath.replace(/^\//, '') + search + hash)
       })()
     </script>

@@ -13,6 +13,11 @@ This project recreates the structure and behavior of a real GitHub repository pa
 
 The site is designed to feel familiar to developers while showcasing projects, experience, and technical depth in a structured and scalable way.
 
+#### 🔗 Repository
+
+- GitHub: https://github.com/BerkCalik/BerkCalik.github.io
+
+
 ---
 
 ## 🚀 Overview

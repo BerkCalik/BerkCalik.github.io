@@ -3,7 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { RepositoryLayout } from '../layout/RepositoryLayout'
 import { useDocumentMeta } from '../hooks/useDocumentMeta'
 import type { TabKey } from '../types/content'
-import { getCommitHistory, getFileBySlug, getTabContent, getTabRoute } from '../utils/content-index'
+import { getFileBySlug, getTabContent, getTabRoute } from '../utils/content-index'
 import { isTabKey } from '../utils/tabs'
 
 export const RepositoryPage = () => {
@@ -31,10 +31,6 @@ export const RepositoryPage = () => {
     }
   }, [activeTab, invalidTab, navigate, selectedFile])
 
-  const commits = useMemo(() => {
-    return getCommitHistory(activeTab, selectedFile?.id)
-  }, [activeTab, selectedFile?.id])
-
   useDocumentMeta(
     selectedFile?.title ?? 'Portfolio',
     selectedFile?.description ?? 'Developer portfolio'
@@ -49,7 +45,6 @@ export const RepositoryPage = () => {
       activeTab={activeTab}
       files={tabContent.files}
       selectedFile={selectedFile}
-      commits={commits}
       isHistoryOpen={isHistoryOpen}
       isRawView={isRawView}
       onToggleHistory={() => setHistoryOpen((previous) => !previous)}

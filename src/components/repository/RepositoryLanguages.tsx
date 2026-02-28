@@ -1,10 +1,10 @@
 import { CircleDot } from 'lucide-react'
 import { useEffect, useMemo, useState } from 'react'
+import { GITHUB_URLS } from '../../config/github'
 import type { GitHubLanguagesResponse } from '../../types/repository-languages'
 import { calculateLanguagePercentages } from '../../utils/repository-languages'
 
-const LANGUAGES_API_URL =
-  'https://api.github.com/repos/BerkCalik/Heartstone-Mobile/languages'
+const LANGUAGES_API_URL = GITHUB_URLS.languagesApi
 
 let cachedLanguages: GitHubLanguagesResponse | null = null
 

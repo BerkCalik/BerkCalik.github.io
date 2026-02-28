@@ -1,4 +1,4 @@
-import type { CommitItem, ContentFile, TabKey } from '../types/content'
+import type { ContentFile, TabKey } from '../types/content'
 import { CommitHistoryPanel } from '../components/CommitHistoryPanel'
 import { FileTreePanel } from '../components/FileTreePanel'
 import { MarkdownViewer } from '../components/MarkdownViewer'
@@ -10,7 +10,6 @@ interface RepositoryLayoutProps {
   activeTab: TabKey
   files: ContentFile[]
   selectedFile: ContentFile
-  commits: CommitItem[]
   isHistoryOpen: boolean
   isRawView: boolean
   onToggleHistory: () => void
@@ -21,7 +20,6 @@ export const RepositoryLayout = ({
   activeTab,
   files,
   selectedFile,
-  commits,
   isHistoryOpen,
   isRawView,
   onToggleHistory,
@@ -53,7 +51,7 @@ export const RepositoryLayout = ({
         <p>Static portfolio repository interface built with React + TypeScript + TailwindCSS.</p>
       </footer>
 
-      <CommitHistoryPanel commits={commits} isOpen={isHistoryOpen} onToggle={onToggleHistory} />
+      <CommitHistoryPanel isOpen={isHistoryOpen} onToggle={onToggleHistory} />
     </div>
   )
 }

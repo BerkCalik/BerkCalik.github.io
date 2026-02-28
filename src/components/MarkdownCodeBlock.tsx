@@ -22,7 +22,9 @@ export const MarkdownCodeBlock = ({
 
   if (inline) {
     return (
-      <code className={clsx(className, 'rounded bg-[#161b22] px-1.5 py-0.5 text-[85%] text-[#c9d1d9]')}>
+      <code
+        className={clsx(className, 'rounded bg-[#161b22] px-1.5 py-0.5 text-[85%] text-[#c9d1d9]')}
+      >
         {children}
       </code>
     )

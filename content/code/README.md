@@ -8,6 +8,7 @@ date: 2026-02-28
 
 - [Deneyimlerim](/about/experience)
 - [Projelerim](/projects)
+- [CV](/cv/BerkCalik_CV.pdf)
 
 ## 🇹🇷 Hakkımda
 
@@ -25,6 +26,7 @@ Yeni teknolojileri hızlı adapte eder, karmaşık problemleri sade ve sürdür�
 
 - [Work Experience](/about/experience)
 - [Projects](/projects)
+- [CV](/cv/BerkCalik_CV_EN.pdf)
 
 I am a Senior Software Developer with 10+ years of experience specializing in mobile and frontend development. I design and build scalable, high-performance applications with a strong focus on clean architecture and long-term maintainability.
 

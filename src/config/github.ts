@@ -1,6 +1,6 @@
 export const GITHUB_REPO_CONFIG = {
   owner: 'BerkCalik',
-  repo: 'RealTimeCaptionsTranslateMacOS',
+  repo: 'BerkCalik',
   commitsPerPage: 5,
   contributorsLimit: 6,
 } as const

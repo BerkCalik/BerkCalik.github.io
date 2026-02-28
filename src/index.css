@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-canvas-default: 246 248 250;
+    --color-canvas-subtle: 255 255 255;
+    --color-canvas-inset: 234 238 242;
+
+    --color-fg-default: 31 35 40;
+    --color-fg-muted: 87 96 106;
+    --color-fg-accent: 9 105 218;
+
+    --color-border-default: 208 215 222;
+    --color-border-muted: 216 222 228;
+
+    --color-accent-muted: 221 244 255;
+    --color-accent-emphasis: 9 105 218;
+
+    --color-success-subtle: 218 251 225;
+    --color-success-emphasis: 26 127 55;
+  }
+
+  .dark {
+    --color-canvas-default: 13 17 23;
+    --color-canvas-subtle: 22 27 34;
+    --color-canvas-inset: 1 4 9;
+
+    --color-fg-default: 230 237 243;
+    --color-fg-muted: 139 148 158;
+    --color-fg-accent: 47 129 247;
+
+    --color-border-default: 48 54 61;
+    --color-border-muted: 33 38 45;
+
+    --color-accent-muted: 12 45 107;
+    --color-accent-emphasis: 47 129 247;
+
+    --color-success-subtle: 3 44 21;
+    --color-success-emphasis: 63 185 80;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-canvas-default text-fg-default font-sans antialiased;
+  }
+}
+
+@layer components {
+  .markdown-body {
+    @apply prose prose-sm max-w-none prose-slate;
+  }
+
+  .dark .markdown-body {
+    @apply prose-invert;
+  }
+
+  .markdown-body :where(a):not(:where(.not-prose, .not-prose *)) {
+    @apply text-fg-accent no-underline hover:underline;
+  }
+
+  .markdown-body :where(h1, h2, h3, h4, h5, h6):not(:where(.not-prose, .not-prose *)) {
+    @apply mb-3 mt-5 font-semibold;
+  }
+
+  .markdown-body :where(h1):not(:where(.not-prose, .not-prose *)) {
+    @apply text-2xl;
+  }
+
+  .markdown-body :where(h2):not(:where(.not-prose, .not-prose *)) {
+    @apply text-xl;
+  }
+
+  .markdown-body :where(h3):not(:where(.not-prose, .not-prose *)) {
+    @apply text-lg;
+  }
+
+  .markdown-body :where(blockquote):not(:where(.not-prose, .not-prose *)) {
+    @apply border-l-4 border-border-default bg-canvas-subtle px-4 py-2 text-fg-muted;
+  }
+
+  .markdown-body :where(code):not(:where(pre code, .not-prose, .not-prose *)) {
+    @apply rounded-md bg-canvas-inset px-1.5 py-0.5 text-sm font-medium before:hidden after:hidden;
+  }
+
+  .markdown-body :where(pre):not(:where(.not-prose, .not-prose *)) {
+    @apply rounded-lg border border-border-default bg-canvas-inset p-0;
+  }
+
+  .markdown-body :where(pre code):not(:where(.not-prose, .not-prose *)) {
+    @apply block overflow-x-auto rounded-lg bg-transparent p-4 text-sm;
+  }
+
+  .markdown-body :where(table):not(:where(.not-prose, .not-prose *)) {
+    @apply block w-full overflow-hidden rounded-lg border border-border-default;
+  }
+
+  .markdown-body :where(thead):not(:where(.not-prose, .not-prose *)) {
+    @apply bg-canvas-subtle;
+  }
+
+  .markdown-body :where(th, td):not(:where(.not-prose, .not-prose *)) {
+    @apply border-b border-border-muted px-3 py-2;
+  }
+
+  .markdown-heading-anchor {
+    @apply ml-2 inline-flex text-fg-muted opacity-0 transition-opacity;
+  }
+
+  .markdown-body h1:hover .markdown-heading-anchor,
+  .markdown-body h2:hover .markdown-heading-anchor,
+  .markdown-body h3:hover .markdown-heading-anchor,
+  .markdown-body h4:hover .markdown-heading-anchor,
+  .markdown-body h5:hover .markdown-heading-anchor,
+  .markdown-body h6:hover .markdown-heading-anchor {
+    @apply opacity-100;
+  }
+
+  .hljs {
+    background: transparent;
+  }
+}
+
+@layer utilities {
+  .markdown-fade {
+    animation: markdown-fade-in 180ms ease-out;
+  }
+
+  .animate-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 0 2px;
+    transition: background-size 180ms ease;
+  }
+
+  .animate-underline-active {
+    background-size: 100% 2px;
+  }
+}
+
+@keyframes markdown-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -26,9 +26,17 @@ Designed with scalable state management and modular architecture.
 ---
 
 ### [Passgage Super HR App – iOS & Android](/projects/passgage)
-Cross-platform e-commerce mobile application built with React Native.  
-Designed with scalable state management and modular architecture.
+An all-in-one HR super app designed to centralize workforce management and eliminate operational complexity.  
+Brings time tracking, performance management, and employee engagement tools into a single scalable mobile platform.
 
-**Focus:** React Native architecture, performance optimization, reusable component systems.
+**Focus:** Enterprise mobile architecture, QR-based attendance system, performance tracking modules, CI/CD automation, code quality enforcement.
+
+---
+
+### [Berk Çalık Portfolio](/projects/BerkCalik)
+GitHub-inspired personal portfolio built with React and TypeScript.  
+Markdown-driven architecture with dynamic routing and real GitHub API integrations.
+
+**Focus:** Frontend architecture, GitHub-like UI replication, dynamic Markdown rendering, static deployment.
 
 ---

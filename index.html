@@ -17,6 +17,26 @@
         }
       })(window.location)
     </script>
+    <script>
+      ;(function () {
+        var storageKey = 'portfolio-theme'
+        var root = document.documentElement
+
+        try {
+          var savedTheme = localStorage.getItem(storageKey)
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+          var theme = savedTheme === 'dark' || savedTheme === 'light' ? savedTheme : prefersDark ? 'dark' : 'light'
+          root.classList.toggle('dark', theme === 'dark')
+          root.setAttribute('data-theme', theme)
+          root.style.colorScheme = theme
+        } catch (error) {
+          var fallbackDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+          root.classList.toggle('dark', fallbackDark)
+          root.setAttribute('data-theme', fallbackDark ? 'dark' : 'light')
+          root.style.colorScheme = fallbackDark ? 'dark' : 'light'
+        }
+      })()
+    </script>
   </head>
   <body>
     <div id="root"></div>

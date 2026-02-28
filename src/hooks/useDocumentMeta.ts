@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 
 export const useDocumentMeta = (title: string, description: string) => {
   useEffect(() => {
-    document.title = `${title} · berkcalik/portfolio`
+    document.title = `${title} · BerkCalik.github.io`
 
     let descriptionTag = document.querySelector('meta[name="description"]')
     if (!descriptionTag) {

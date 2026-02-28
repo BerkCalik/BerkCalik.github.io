@@ -16,9 +16,12 @@ export const RepositorySidebar = () => {
             Static developer portfolio repository with GitHub-like code navigation and markdown
             documents.
           </p>
-          <p className="mt-2 text-[12px] text-fg-muted">
+          <a
+            className="mt-2 text-[12px] text-fg-muted"
+            href={`https://github.com/${REPOSITORY_META.fullName}`}
+          >
             Repository: <span className="text-fg-default">{REPOSITORY_META.fullName}</span>
-          </p>
+          </a>
         </section>
 
         <RepositoryLanguages />

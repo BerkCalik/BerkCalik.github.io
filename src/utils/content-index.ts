@@ -8,8 +8,8 @@ interface RepositoryContentIndex {
   commitsByTab: Record<TabKey, CommitItem[]>
 }
 
-const REPO_OWNER = 'berkcalik'
-const REPO_NAME = 'portfolio'
+const REPO_OWNER = 'BerkCalik'
+const REPO_NAME = 'BerkCalik.github.io'
 
 const markdownModules = import.meta.glob<string>('/content/**/*.md', {
   eager: true,

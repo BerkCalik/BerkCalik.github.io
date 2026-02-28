@@ -1,33 +1,29 @@
 ---
 title: Code
 description: Repository code section and engineering philosophy
-date: 2025-12-09
+date: 2026-02-28
 ---
 
-# Code
+# 👋 Berk Çalık
 
-This section mirrors how I structure frontend repositories for scale.
+## 🇹🇷 Hakkımda
 
-## Principles
+10+ yıllık deneyime sahip bir Senior Software Developer’ım. Mobil ve frontend odaklı projelerde, ölçeklenebilir mimariler kurarak performanslı ve sürdürülebilir uygulamalar geliştiriyorum.
 
-- Type-safe boundaries between modules
-- Predictable routing and URL-driven state
-- Strong UI composition with reusable primitives
-- Accessibility-first interaction design
+Uzmanlık alanlarım arasında **React, React Native, TypeScript ve modern frontend mimarileri** yer alıyor. Mikro frontend yapılar, modüler sistem tasarımı, state management stratejileri ve performans optimizasyonu konularında derin tecrübeye sahibim.
 
-## Example: Typed Utility
+Amacım sadece çalışan ürünler üretmek değil; uzun vadede büyüyebilen, teknik borcu minimum olan, temiz ve güçlü sistemler tasarlamak. Kod kalitesine, mimari disipline ve kullanıcı deneyimine eşit derecede önem veririm.
 
-```ts
-export const notNull = <T>(value: T | null | undefined): value is T => {
-  return value !== null && value !== undefined
-}
-```
+Yeni teknolojileri hızlı adapte eder, karmaşık problemleri sade ve sürdürülebilir çözümlere dönüştürürüm.
 
-## Delivery Checklist
+---
 
-- [x] Strict TypeScript
-- [x] Lint and format pipelines
-- [x] Static content loading
-- [x] Component architecture for growth
+## 🇬🇧 Professional Summary
 
-> Code quality is a product feature, not a maintenance chore.
+I am a Senior Software Developer with 10+ years of experience specializing in mobile and frontend development. I design and build scalable, high-performance applications with a strong focus on clean architecture and long-term maintainability.
+
+My core expertise includes **React, React Native, TypeScript, and modern frontend architectures**. I have hands-on experience with micro frontend systems, modular application design, state management strategies, and performance optimization.
+
+I don’t just aim to ship working products — I build systems that scale, remain maintainable, and minimize technical debt over time. I value code quality, architectural discipline, and user experience equally.
+
+I adapt quickly to new technologies and transform complex problems into clean, sustainable engineering solutions.

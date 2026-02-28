@@ -4,20 +4,50 @@ description: Contact and collaboration information
 date: 2025-09-15
 ---
 
+# İletişim / Contact
+
+## 🇹🇷 İletişim
+
+Yeni fırsatlara açığım.
+
+Özellikle:
+
+- Senior / Lead Frontend pozisyonları
+- React & React Native projeleri
+- Mimari tasarım ve teknik liderlik rolleri
+- Uzaktan (remote) veya hibrit çalışma modelleri
+- Proje bazlı (contract / freelance) iş birlikleri
+
+📍 **Konum:** Isparta, Türkiye  
+🚆 **Hibrit çalışma için:** İstanbul lokasyonuna uyum sağlayabilirim.  
+🌍 **Remote:** Uluslararası ve dağıtık ekiplerle çalışmaya uygunum.
+
+
+---
+
 # Contact
 
-## Reach Out
+## 🇬🇧 Get in Touch
 
-- Email: berk@example.dev
-- GitHub: [github.com/berkcalik](https://github.com/berkcalik)
-- LinkedIn: [linkedin.com/in/berkcalik](https://linkedin.com/in/berkcalik)
+I am open to new opportunities, including:
 
-## Availability
+- Senior / Lead Frontend roles
+- React & React Native positions
+- Architecture-focused and technical leadership roles
+- Remote or hybrid work models
+- Project-based (contract / freelance) collaborations
 
-Open to:
+📍 **Location:** Isparta, Türkiye  
+🚆 **Hybrid availability:** Open to hybrid opportunities in Istanbul.  
+🌍 **Remote:** Comfortable working with distributed international teams.
 
-- Senior frontend roles
-- UI architecture consulting
-- Product-minded engineering collaborations
+---
 
-> The fastest way to connect is email with project context and timeline.
+### 📬 Contact Information
+
+- 📧 **Email:** [berkcancalik@gmail.com](mailto:berkcancalik@gmail.com)
+- 📱 **Phone:** [+90 534 056 4946](tel:+905340564946)
+- 💼 **LinkedIn:** [linkedin.com/in/berkcalik](https://linkedin.com/in/berkcalik)
+- 💻 **GitHub:** [github.com/BerkCalik](https://github.com/BerkCalik)
+
+

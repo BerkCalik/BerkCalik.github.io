@@ -6,26 +6,60 @@ date: 2025-10-04
 
 # Skills
 
-## Frontend
+## Frontend & Mobile Development
 
-- React, TypeScript, Next.js, Vite
-- Design systems, component libraries, token pipelines
-- State management patterns and data synchronization
+- React Native
+- React.js
+- Next.js
+- TypeScript
+- JavaScript (ES6+)
+- Redux / Redux Toolkit
+- Zustand
+- Vite
+- Tailwind CSS
+- Shadcn UI
 
-## Styling
+## Backend & APIs
 
-- TailwindCSS
-- CSS architecture for scale
-- Theme systems and accessibility-aware color usage
+- .NET Core
+- ASP.NET MVC
+- RESTful API Design & Integration
+- Dapper
+- Entity Framework Core
 
-## Quality and Delivery
+## Mobile & Platform Experience
 
-- ESLint, Prettier, CI quality gates
-- Test strategy planning and risk-driven coverage
-- Incremental refactoring on production codebases
+- iOS & Android Application Development
+- App Store & Google Play Release Management
+- Code Push
+- Offline-First Architecture
+- Native Module Development (Android / Java)
 
-## Collaboration
+## Database
 
-- Architecture reviews
-- Mentoring and pairing
-- Cross-functional delivery planning
+- Microsoft SQL Server (MSSQL)
+- PostgreSQL
+- MySQL
+- SQLite
+
+## DevOps & Tooling
+
+- Git / GitHub
+- CI/CD Pipelines
+- Docker
+- Coolify
+- Monitoring & Error Tracking (Sentry)
+- Analytics (Google Analytics)
+- SonarQube
+- ESLint
+- Prettier
+- Fastlane
+
+## Architecture & Engineering Practices
+
+- Component-Based Architecture
+- Scalable & Modular System Design
+- State Management Patterns
+- Performance Optimization
+- Clean Code & Code Review Practices
+- Agile / Scrum

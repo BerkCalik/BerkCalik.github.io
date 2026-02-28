@@ -13,7 +13,7 @@ It allows families, roommates, or friends to manage shared shopping lists in rea
 
 ---
 
-![Sepetteyiz](../assets/projects/sepetteyiz.jpg)
+![Sepetteyiz](/assets/projects/sepetteyiz.jpg)
 
 ## 📲 Download
 

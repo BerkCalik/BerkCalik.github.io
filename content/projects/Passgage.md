@@ -15,7 +15,7 @@ Instead of juggling long working hours, Excel sheets, and repetitive data entry,
 
 ---
 
-![Sepetteyiz](../assets/projects/passgage.webp)
+![Sepetteyiz](/assets/projects/passgage.webp)
 
 ## 📲 Download
 

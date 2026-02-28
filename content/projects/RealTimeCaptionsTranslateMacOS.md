@@ -13,7 +13,7 @@ The app captures system-level audio (e.g., via BlackHole), processes speech in r
 
 ---
 
-![Sepetteyiz](../assets/projects/RealTimeCaptionsTranslateMacOS.webp)
+![Sepetteyiz](/assets/projects/RealTimeCaptionsTranslateMacOS.webp)
 
 ## 🔗 Repository
 

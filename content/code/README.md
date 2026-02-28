@@ -4,7 +4,10 @@ description: Repository code section and engineering philosophy
 date: 2026-02-28
 ---
 
-# 👋 Berk Çalık
+# Merhaba 👋 Ben Berk,
+
+- [Deneyimlerim](/about/experience)
+- [Projelerim](/projects)
 
 ## 🇹🇷 Hakkımda
 
@@ -19,6 +22,9 @@ Yeni teknolojileri hızlı adapte eder, karmaşık problemleri sade ve sürdür�
 ---
 
 ## 🇬🇧 Professional Summary
+
+- [Work Experience](/about/experience)
+- [Projects](/projects)
 
 I am a Senior Software Developer with 10+ years of experience specializing in mobile and frontend development. I design and build scalable, high-performance applications with a strong focus on clean architecture and long-term maintainability.
 

@@ -45,7 +45,7 @@ The project follows a modular and scalable frontend architecture.
 ### Key Architectural Decisions
 
 - Feature-based folder structure  
-- Dynamic Markdown loading using `import.meta.glob`  
+- Dynamic Markdown loading using import.meta.glob
 - URL-synchronized routing with React Router  
 - GitHub-like layout composition (centered container, stacked cards)  
 - Right-side repository sidebar (About, Languages, Commits, Contributors)  

@@ -66,7 +66,7 @@ export const MarkdownViewer = ({ file, isRawView, onToggleRawView }: MarkdownVie
       <div className="flex items-center justify-between gap-2 border-b border-border-default px-3 py-2">
         <div className="flex items-center gap-2 text-sm text-fg-default">
           <FileText size={14} className="text-fg-muted" />
-          <span className="text-[13px] font-medium">README.md</span>
+          <span className="text-[13px] font-medium">{file.name}</span>
         </div>
 
         <button

@@ -1,11 +1,11 @@
 ---
-title: Passgage – Super HR App
+title: Passgage – HR Super App
 description: A unified HR super app designed to manage workforce processes from a single platform.
 date: 2026-02-10
 repository: -
 ---
 
-# Passgage – Super HR App
+# Passgage – HR Super App
 
 Passgage is an all-in-one HR super application designed to simplify and centralize human resources operations.
 
@@ -118,13 +118,13 @@ The goal was maintainability, performance, and long-term scalability.
 
 ## 👨‍💻 My Role
 
-- Led the mobile development team and coordinated feature delivery  
-- Designed and maintained the mobile application architecture  
-- Conducted code reviews and enforced engineering standards  
-- Established GitHub Actions workflows for CI  
-  - Automated ESLint & Prettier checks  
-  - Integrated SonarCloud for continuous code quality analysis  
-- Implemented and maintained feature-based modular structure  
-- Integrated push notifications and monitoring tools  
-- Collaborated closely with product and design teams  
+- Led the mobile development team and coordinated feature delivery
+- Designed and maintained the mobile application architecture
+- Conducted code reviews and enforced engineering standards
+- Established GitHub Actions workflows for CI
+  - Automated ESLint & Prettier checks
+  - Integrated SonarCloud for continuous code quality analysis
+- Implemented and maintained feature-based modular structure
+- Integrated push notifications and monitoring tools
+- Collaborated closely with product and design teams
 - Ensured performance, scalability, and long-term maintainability

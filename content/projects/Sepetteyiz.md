@@ -2,7 +2,6 @@
 title: Sepetteyiz – iOS & Android
 description: A real-time collaborative shopping list application designed for families and shared households.
 date: 2025-03-10
-repository: -
 ---
 
 # Sepetteyiz – Smart Shared Shopping Lists

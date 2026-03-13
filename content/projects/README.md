@@ -20,10 +20,10 @@ Captures system audio, processes speech using AI, and renders translated caption
 
 ### [Sepetteyiz – iOS & Android - 2026](/projects/sepetteyiz)
 
-Cross-platform e-commerce mobile application built with React Native.  
-Designed with scalable state management and modular architecture.
+A real-time collaborative shopping list application designed for families and shared households to coordinate grocery planning.
+Features instant synchronization across devices, smart item suggestions, and native iOS widgets for quick access.
 
-**Focus:** React Native architecture, performance optimization, reusable component systems.
+**Focus:** Real-time state synchronization, React Native & Expo, Firebase architecture, OTA updates, and native widget development.
 
 ---
 
@@ -33,6 +33,14 @@ An internal system used by Toyota Türkiye dealerships to digitize vehicle inspe
 Enables digital offer creation with photo/video attachments and customer approval via secure links.
 
 **Focus:** Full-stack development, mobile & web applications, REST API architecture, media processing, background job management.
+
+---
+
+### [FreeBird Airlines – B2C & B2B Platforms - 2025](/projects/freebird)
+
+A unified digital aviation ecosystem providing a high-speed booking experience for travelers and comprehensive management tools for corporate partners. Enables seamless flight search, internationalized booking flows, and robust agency management through two specialized web platforms.
+
+**Focus:** Next.js & React architecture, internationalization (i18n), complex state management, CI/CD pipelines, and containerized deployment.
 
 ---
 

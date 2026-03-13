@@ -1,6 +1,6 @@
 ---
 title: Sepetteyiz – iOS & Android
-description: A real-time collaborative shopping list application with instant OTA updates, designed for families and shared households.
+description: A real-time collaborative shopping list application with instant OTA updates and native iOS widgets, designed for families and shared households.
 date: 2025-03-10
 ---
 
@@ -52,6 +52,10 @@ When someone adds or checks off an item, everyone sees it in real time.
 
 As you type, Sepetteyiz suggests items to speed up list creation and reduce repetitive typing.
 
+### 📱 iOS Native Widget
+
+View and access your active shopping lists directly from your home screen with a native iOS widget for even faster interactions.
+
 ### 📦 Units & Quantities
 
 Add detailed quantities using specific units such as:
@@ -93,6 +97,7 @@ The application was designed with scalability and real-time responsiveness as pr
 - React Native
 - Expo
 - TypeScript
+- Swift / WidgetKit (Native iOS Widget)
 - Zustand (state management)
 - Hot-updater (OTA updates)
 

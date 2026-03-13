@@ -1,6 +1,6 @@
 ---
 title: Sepetteyiz – iOS & Android
-description: A real-time collaborative shopping list application designed for families and shared households.
+description: A real-time collaborative shopping list application with instant OTA updates, designed for families and shared households.
 date: 2025-03-10
 ---
 
@@ -33,6 +33,7 @@ The app focuses on:
 - Real-time collaboration
 - Fast interaction
 - Clean, distraction-free UI
+- OTA (Over-the-Air) Updates: Integrated with hot-updater to provide instant bug fixes and improvements without waiting for store approval processes.
 
 ---
 
@@ -93,6 +94,7 @@ The application was designed with scalability and real-time responsiveness as pr
 - Expo
 - TypeScript
 - Zustand (state management)
+- Hot-updater (OTA updates)
 
 ### Backend & Services
 

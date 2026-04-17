@@ -9,6 +9,17 @@ Some of the professional and personal projects I’ve worked on.
 
 ---
 
+### [Trimly AI - Chrome Extension - 2026](/projects/trimly-ai-chrome-extension)
+
+A Chrome extension built with WXT, React, and TypeScript for summarizing or translating web content using OpenAI models.  
+Supports full-page extraction, selected-text processing, configurable prompts, history tracking, and a dedicated reader view.
+
+**Focus:** Chrome extension architecture, streaming AI UX, content extraction, prompt configuration, and settings persistence.
+
+**Tech:** TypeScript, React 19, WXT, Vite, Chrome Extension Manifest V3, Tailwind CSS, @mozilla/readability, marked, OpenAI API.
+
+---
+
 ### [RealTime Captions Translate (macOS) - 2026](/projects/RealTimeCaptionsTranslateMacOS)
 
 Low-latency real-time subtitle translation application for macOS.  

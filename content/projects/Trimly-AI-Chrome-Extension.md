@@ -20,6 +20,8 @@ It supports full-page extraction, selected-text summaries from the context menu,
 
 - GitHub: https://github.com/BerkCalik/trimly-ai
 
+- Google Chrome Web Store: https://chromewebstore.google.com/detail/trimly-ai/acjpofnbheacpkpjaafiolbomcacbljh
+
 ---
 
 ## ✨ Features
